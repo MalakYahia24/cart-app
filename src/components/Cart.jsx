@@ -13,7 +13,7 @@ function Cart() {
   console.log(totalPrice)
   return (
     <>
-    <h1>Welcom To Cart</h1>
+    <h1>Welcome To Cart</h1>
     <Button variant='primary' onClick={()=>dispatch(clear())}>Clear Cart</Button>
     <h5>Total Price : {totalPrice.toFixed(2)}</h5>
     <Table striped bordered hover size="sm">
