@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AppNavbar from './components/Navbar';
 import { Routes , Route } from 'react-router-dom';
 import Products from './components/Products';
-import Cart from './components/cart';
+import Cart from './components/Cart';
 
 function App() {
   return (
